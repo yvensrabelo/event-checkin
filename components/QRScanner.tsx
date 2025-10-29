@@ -82,10 +82,6 @@ export default function QRScanner({ onScan }: QRScannerProps) {
             height: '100%',
           },
         }}
-        components={{
-          audio: false,
-          finder: true,
-        }}
         allowMultiple={false}
       />
 
